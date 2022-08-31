@@ -1,6 +1,6 @@
 # Test
 
-  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)]
+  [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
   ## Table of Contents
   * [Description](#description)
