@@ -31,11 +31,12 @@ Refer to this page for more tips regarding README:
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 ## Demonstration
-Watch this demo to see the README Generator in action.
+Watch this [demo](https://youtu.be/jzB8ZH1D64s) to see the README Generator in action.
 
 ## Questions
 Have any questions about this project? Reach out!
-GitHub: https://github.com/jasonsin88
+
+GitHub: https://github.com/jasonsin88 <br/>
 Email: jason.c.sin@gmail.com
 
 ## Credits
