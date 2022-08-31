@@ -145,3 +145,13 @@ const questions = () => {
     ]); 
 };
 
+// TODO: Create a function to initialize app
+const init = () => {
+    questions()
+    .then((answers) => writeFile('README.md', generateMarkdown(answers)))
+    .then(() => console.log('Success! You can now view your README!'))
+    .catch((err) => console.log(err));
+};
+
+// Function call to initialize app
+init();
