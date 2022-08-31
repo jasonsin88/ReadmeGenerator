@@ -6,7 +6,7 @@ function renderLicenseBadge(license) {
   if (!license) {
     return '';
   } else {
-    return '[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})'
+    return '[![' + license + ' license](https://img.shields.io/badge/License-' + license + '-blue.svg)]' 
   }
 }
 
@@ -28,10 +28,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (!license) {
-    return '';
+    return 'Not applicable';
   } else {
-    return '## Licenses 
-    This project is covered under the ${license} license. To learn more about what this MediaSession, click the license button at the top.' 
+    return 'This project is covered under the ' + license + ' license. To learn more about what this means, click the license button at the top.';
   }
 }
 
@@ -60,10 +59,11 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ${renderLicenseSEction(data.licenses)}
+  ## Licenses
+  ${renderLicenseSection(data.licenses)}
 
   ## Contributing
-  ${data.contributing}
+  ${data.contribution}
 
   ## Tests
   ${data.tests}
